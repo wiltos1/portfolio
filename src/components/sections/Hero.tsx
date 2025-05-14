@@ -36,10 +36,10 @@ const Hero: React.FC = () => {
   return (
     <section
       id="home"
-      className="flex h-screen pt-24 pl-20 pr-16 gap-4 relative"
+      className="flex flex-col lg:flex-row h-screen pt-24 px-6 md:px-20 gap-8 relative"
     >
-      {/* Left: your text, now narrower and padded */}
-      <div className="w-full lg:w-6/12 flex flex-col justify-center space-y-6 pr-12">
+      {/* Left: text content */}
+      <div className="w-full lg:w-6/12 flex flex-col justify-center space-y-6">
         <p className="text-gray-900 dark:text-white text-xl md:text-2xl font-medium">
           Hello, I’m
         </p>
@@ -50,7 +50,7 @@ const Hero: React.FC = () => {
           Mechatronics. Creativity. Innovation.
         </h2>
 
-        <div className="flex gap-4">
+        <div className="flex gap-4 flex-wrap">
           <a
             href="#projects"
             className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors duration-300"
@@ -66,8 +66,8 @@ const Hero: React.FC = () => {
         </div>
       </div>
 
-      {/* Right: your image */}
-      <div className="hidden lg:block w-full lg:w-8/12 h-full relative">
+      {/* Right: responsive image */}
+      <div className="w-full lg:w-6/12 h-72 sm:h-96 lg:h-full relative">
         <img
           src={heroBg}
           alt="Sam Wilton"

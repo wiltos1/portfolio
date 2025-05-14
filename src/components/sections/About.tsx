@@ -94,6 +94,12 @@ const About: React.FC = () => {
                   🏎️ <span className="text-gray-900 dark:text-white font-medium">F1 Racing</span>
                 </div>
                 <div className="flex items-center gap-3 bg-gray-50 dark:bg-gray-800 px-4 py-3 rounded-lg shadow hover:shadow-md transition">
+                  ⛷️ <span className="text-gray-900 dark:text-white font-medium">Downhill Skiing</span>
+                </div>
+                <div className="flex items-center gap-3 bg-gray-50 dark:bg-gray-800 px-4 py-3 rounded-lg shadow hover:shadow-md transition">
+                  ♟️ <span className="text-gray-900 dark:text-white font-medium">Mediocre Chess Player</span>
+                </div>
+                <div className="flex items-center gap-3 bg-gray-50 dark:bg-gray-800 px-4 py-3 rounded-lg shadow hover:shadow-md transition">
                   😄 <span className="text-gray-900 dark:text-white font-medium">Dad Jokes</span>
                 </div>
               </div>

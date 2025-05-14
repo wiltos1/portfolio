@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import App from './App.tsx';
 import './index.css';
 
-document.title = 'Engineering Portfolio';
+document.title = 'Sam Wilton | Portfolio';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

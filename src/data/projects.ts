@@ -20,7 +20,7 @@ export const projectsData: Project[] = [
   },
   {
     id: 2,
-    title: 'Interactive Chess Trainer',
+    title: 'Reinforcement Learning Based Chess Trainer',
     description: 'Developed a web-based chess training platform that analyzes users\' past games to detect key mistakes and generate targeted quizzes. Frontend in React, backend in Flask with persistent user data and mistake tracking.',
     image: chessImg,
     technologies: ['Python', 'Flask', 'JavaScript', 'Stockfish'],

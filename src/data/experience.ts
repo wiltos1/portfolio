@@ -19,6 +19,12 @@ export const experienceData: Experience[] = [
     description: 'Mentoring first-year engineering students in core subjects such as calculus, physics, and programming. Focused on strengthening conceptual understanding, building problem-solving skills, and supporting students through assignment preparation and exam review.'
   },
   {
+    title: 'Suspension and Dynamics Team Member',
+    company: 'Solar Car - McMaster University',
+    period: 'Sept 2024 - Present',
+    description: 'Optimizing the suspension and steering system of the McMaster Solar Car. Focused on modeling and analyzing dynamical interactions to improve performance and efficiency'
+  },
+  {
     title: 'Undergraduate Researcher',
     company: 'University of Calgary',
     period: 'May - Aug 2024',
