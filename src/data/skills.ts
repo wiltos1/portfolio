@@ -1,8 +1,8 @@
-export type SkillCategory = 'programmingLanguages' | 'softwares' | 'hardwareAndSystems' | 'spokenLanguages';
+export type SkillCategory = 'programmingLanguages' | 'softwares' | 'hardwareAndSystems' | 'tools';
 
 export interface Skill {
   name: string;
-  level: number; // 0-100
+  level: 'Beginner' | 'Moderate' | 'Advanced';
 }
 
 export interface SkillsData {
@@ -11,26 +11,26 @@ export interface SkillsData {
 
 export const skillsData: SkillsData = {
   programmingLanguages: [
-    { name: 'C/C++', level: 85 },
-    { name: 'Python', level: 75 },
-    { name: 'MATLAB', level: 70 },
-    { name: 'Maple', level: 70 },
+    { name: 'C/C++', level: 'Advanced' },
+    { name: 'Python', level: 'Moderate' },
+    { name: 'MATLAB', level: 'Moderate' },
+    { name: 'Maple', level: 'Moderate' },
   ],
   softwares: [
-    { name: 'SolidWorks (FEA experience)', level: 90 },
-    { name: 'Autodesk Inventor', level: 85 },
-    { name: 'NI LabVIEW', level: 80 },
-    { name: 'Microsoft Office Suite', level: 80 }
+    { name: 'SolidWorks (FEA experience)', level: 'Advanced' },
+    { name: 'Autodesk Inventor', level: 'Advanced' },
+    { name: 'Microsoft Office Suite', level: 'Advanced' },
+    { name: 'NI LabVIEW', level: 'Moderate' }
   ],
   hardwareAndSystems: [
-    { name: 'Microcontrollers: ESP32, STM32, Arduino )', level: 90 },
-    { name: 'Woodworking', level: 90 },
-    { name: 'Embedded C Programming', level: 85 },
-    { name: '3D Printing', level: 80 },
-    { name: 'UART, I2C, SPI Protocols', level: 70 }
+    { name: 'Microcontrollers: ESP32, STM32, Arduino', level: 'Advanced' },
+    { name: 'Embedded C Programming', level: 'Advanced' },
+    { name: '3D Printing', level: 'Moderate' },
+    { name: 'UART, I2C, SPI Protocols', level: 'Moderate' }
   ],
-  spokenLanguages: [
-    { name: 'English', level: 100 },
-    { name: 'French', level: 100 }
+  tools: [
+    { name: 'Power Tools & Woodworking', level: 'Advanced' },
+    { name: 'Soldering', level: 'Moderate' },
+    { name: 'Machining', level: 'Beginner' }
   ]
 };
